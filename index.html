@@ -1,0 +1,26 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>vw-layout</title><script src=//g.alicdn.com/fdilab/lib3rd/viewport-units-buggyfill/0.6.2/??viewport-units-buggyfill.hacks.min.js,viewport-units-buggyfill.min.js></script><link href=/static/css/app.3a95c0049338b932f6e928f8242fb929.css rel=stylesheet></head><body><div id=app></div><script>window.onload = function() {
+        window.viewportUnitsBuggyfill.init({
+          hacks: window.viewportUnitsBuggyfillHacks
+        });
+
+        var winDPI = window.devicePixelRatio;
+        var uAgent = window.navigator.userAgent;
+        var screenHeight = window.screen.height;
+        var screenWidth = window.screen.width;
+        var winWidth = window.innerWidth;
+        var winHeight = window.innerHeight;
+        alert(
+          "Windows DPI:" +
+            winDPI +
+            ";\ruAgent:" +
+            uAgent +
+            ";\rScreen Width:" +
+            screenWidth +
+            ";\rScreen Height:" +
+            screenHeight +
+            ";\rWindow Width:" +
+            winWidth +
+            ";\rWindow Height:" +
+            winHeight
+        );
+      };</script><script type=text/javascript src=/static/js/manifest.1af0de9b2d4502b640e0.js></script><script type=text/javascript src=/static/js/vendor.17d770379dd0b1b3199f.js></script><script type=text/javascript src=/static/js/app.bf33d4c6279ae53689b3.js></script></body></html>
